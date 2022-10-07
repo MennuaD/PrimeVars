@@ -42,7 +42,14 @@ public class Circle
            including its radius, area, and circumference on separate lines;
            see example output below
          */
-     //   public String toString()
+        public String toString(){
+         double c = circumference();
+      //   String b = "Circumference = " + d;
+
+            System.out.println();
+
+            return null;
+        }
        // { /* implement this method! */ }
     }
 
