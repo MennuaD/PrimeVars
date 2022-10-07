@@ -11,18 +11,25 @@ public class Circle
            Area of a circle = pi * r ^ 2
          */
         public double area() {
-             double x;
-           x = (Math.pow(radius, 2)) * Math.PI ;
+             double a;
+           a = (Math.pow(radius, 2)) * Math.PI ;
 
-            return x;
+            return a;
         }
 
         /* Returns the circumference of the circle with given radius
            Circumference of a circle = pi * d
            (d = diameter = 2 * r)
          */
-      //. public double circumference()
-       // { /* implement this method! */ }
+      public double circumference() {
+           double c;
+           double diameter;
+           diameter = 2 * radius;
+           c = diameter * Math.PI;
+
+          return c;
+      }
+
 
         /* Updates the radius of the circle to newRadius
          */
